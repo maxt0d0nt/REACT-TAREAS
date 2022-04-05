@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import freeCampCodeLogo from './img/banner.png';
-import Tarea from './components/Tarea.jsx';
+import ListaDeTareas from './components/ListaDeTareas';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
      <div className='contenedor-tareas'>
        <div className='tarea-lista-principal'>
        <h1>Mis Tareas</h1>
-       <Tarea />
+       <ListaDeTareas />
        </div>
      </div>
     </div>

@@ -25,3 +25,9 @@
     height: 25px;
     margin: 5px;
 }
+
+/* tarea completa */
+.tarea-contenedor.completada {
+    background-color: #5a01a7;
+    text-decoration: line-through;
+}
