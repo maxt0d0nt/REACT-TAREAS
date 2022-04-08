@@ -3,7 +3,7 @@ import '../stylesheet/Tarea.css';
 import { AiFillCloseCircle } from "react-icons/ai";
 
 
-function Tarea ({ id, texto, completada, completadaTarea, eliminarTarea }) {
+function Tarea ({ id, texto, completada, completarTarea, eliminarTarea }) {
     return (
         <div className={completada ? 'tarea-contenedor completada' : 'tarea-contenedor'}>
             <div className="tarea-texto"
